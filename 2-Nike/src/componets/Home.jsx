@@ -17,7 +17,7 @@ const Home = () => {
       <section className="px-8 pt-10  full-full max-w-[1200px]">
         <Hero />
       </section>
-      <section className="px-8 py-12 bg-yellow-200 my-2">
+      <section className="px-8 py-14  my-2">
         <PopularProducts />
       </section>
       <section className="px-8 py-12 bg-yellow-200 my-2">
