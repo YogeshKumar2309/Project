@@ -21,8 +21,8 @@ const Hero = () => {
         <div className="flex flex-col justify-center items-center w-full sm:w-[50%] sm:h-[84vh] sm:justify-start sm:items-start sm:ms-[10%]">
           <p className="text-[8px] text-gray-500 sm:text-[16px] ">Our Summer collection</p>
           
-          <span className="inline-block mt-1 font-bold bg-white py-0.5 sm:text-3xl sm:z-100 sm:pr-2 sm:py-2 md:text-4xl">
-            The New Arrival </span><span className="sm:text-3xl md:text-4xl font-bold"><span className="text-[#ff6452]  ">Nike </span >Shoes </span>        
+          <span className="inline-block mt-1 font-bold bg-white py-0.5 sm:text-3xl sm:z-100 sm:pr-2 sm:py-2 md:text-4xl lg:text-5xl xl:text-7xl ">
+            The New Arrival </span><span className="sm:text-3xl md:text-4xl lg:text-5xl xl:text-7xl font-bold"><span className="text-[#ff6452]  ">Nike </span >Shoes </span>        
           <p className="text-[7px] mt-1 text-gray-500 w-[80%] text-center sm:text-[15px] sm:w-[50%] sm:text-start sm:pt-2">
             Discover the latest Nike shoes, designed for performance and style.
             Whether you're hitting the gym or the streets, our new arrivals have
