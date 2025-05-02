@@ -14,7 +14,7 @@ const App = () => {
 
   return (
     <>
-      <main className="reative ">
+      <main className="overflow-x-hidden">
         <Nav />
   
      

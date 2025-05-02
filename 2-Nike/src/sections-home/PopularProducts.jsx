@@ -9,19 +9,26 @@ const PopularProducts = () => {
   
   return(
     <>
-    <div  className="flex flex-col ">
+    <div  className="flex flex-col sm:flex-row sm:w-[85vw] sm:justify-between  m-auto  xl:mt-16 ">
 
-      <div className="left">
-        <p className="text-xl  font-bold">We Porvid You <span className= " text-[#ff6452] text-xl font-bold ">Super Quality </span>Shoes</p>
-        <p className="text-sm text-gray-500 w-full text-justify py-2 ">Ensuring premuum comfort and style. our meticulousty  crafted footwear is designed to elevate your experience, providing you with unmatched  quality, innovation, and a touch of elegance. </p>
-        <p className="text-sm text-gray-500 w-full text-justify mb-6">Our dedicaiton to detail and excellence ensures your satisfaciton</p>
-        <Button btnName="Shop Now" btnColor={"[#ff6452]" }btnIcon={arrowRight} />
+      <div className="left sm:flex sm:flex-col justify-center items-start sm:w-[50vw] sm:m-auto sm:mx-3 ">
+        <p className=" font-bold text-2xl  sm:text-3xl md:text-4xl lg:text-5xl xl:text-7xl">We Porvid You <span className= " text-[#ff6452] text-2xl  sm:text-3xl md:text-4xl lg:text-5xl xl:text-7xl font-bold ">Super Quality </span>Shoes</p>
+
+        <p className="text-sm text-gray-500 w-full text-justify py-2 xl:mt-6 md:text-xl">Ensuring premuum comfort and style. our meticulousty  crafted footwear is designed to elevate your experience, providing you with unmatched  quality, innovation, and a touch of elegance. </p>
+        <p className="text-sm text-gray-500 w-full text-justify mb-6 md:text-xl">Our dedicaiton to detail and excellence ensures your satisfaciton</p>
+        <Button btnName="Shop Now" btnIcon={arrowRight} />
       </div>
       
-      <div className="right mt-10 ">
-        <img src={shoe8} alt="Shoe" className="object-contain" />
+      <div className=" mt-10 w-[50vw]   flex justify-center items-center ">
+       
+        <img src={shoe8} alt="Shoe" className="object-contain " />
+        
       </div>
     </div>
+
+
+
+   
     </>
   );
 };
