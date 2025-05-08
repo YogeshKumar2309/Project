@@ -13,31 +13,32 @@ import {
 const Home = () => {
   return (
     <>
-    
-      <section className="px-8 pt-10  full-full max-w-[1200px] ">
+      <div className="max-w-[1200px] mx-auto ms-2 mr-2">
+      <section className=" pt-10    ">
         <Hero />
       </section>
-      <section className="px-8 py-14  my-2 ">
+      <section className=" py-14  my-2 ">
         <PopularProducts />
       </section>
-      <section className="px-8 py-12 bg-yellow-200 my-2">
+      <section className=" py-12 my-2 ">
         <SuperQuality />
       </section>
-      <section className="px-8 py-12 bg-yellow-200 my-2">
+      <section className=" py-12 bg-yellow-200 my-2">
         <Services />
       </section>
-      <section className="px-8 py-12 bg-yellow-200 my-2">
+      <section className=" py-12 bg-yellow-200 my-2">
         <SpecialOffer />
       </section>
-      <section className="px-8 py-12 bg-yellow-200 my-2">
+      <section className=" py-12 bg-yellow-200 my-2">
         <CustomerReviews />
       </section>
-      <section className="px-8 py-12 bg-yellow-200 my-2">
+      <section className=" py-12 bg-yellow-200 my-2">
         <Subscribe />
       </section>
-      <section className="px-8 py-12 bg-yellow-200 my-2">
+      <section className=" py-12 bg-yellow-200 my-2">
         <Footer />
       </section>
+      </div>
     </>
   );
 };
